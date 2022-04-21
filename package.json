@@ -1,6 +1,6 @@
 {
     "name": "md-pinch-zoom2",
-    "version": "1.0.0",
+    "version": "1.1.4",
     "description": "pinch zoom for vue3",
     "main": "dist/output.js",
     "scripts": {
@@ -12,11 +12,20 @@
         "pinch",
         "zoom",
         "image",
-        "pinchzoom"
+        "pinchzoom",
+        "vue3-pinch-zoom"
     ],
-    "author": "mohammad daneshamooz",
+    "author": {
+        "name": "mohammad daneshamooz",
+        "email": "mohammad_daneshamooz@yahoo.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mohammaddan/vue-pinch-zoom.git"
+    },
     "license": "ISC",
     "devDependencies": {
+        "html-webpack-plugin": "^5.5.0",
         "vue": "^3.2.33",
         "vue-loader": "^17.0.0",
         "vue-template-compiler": "^2.6.14",

@@ -1,6 +1,8 @@
+let HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
+    mode: 'production',
     entry: './src/index.js',
     output: {
         filename: 'output.js',
@@ -11,6 +13,7 @@ module.exports = {
         ]
     },
     plugins: [
+        new HtmlWebpackPlugin(),
         new VueLoaderPlugin(),
     ]
 };
