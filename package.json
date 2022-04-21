@@ -1,0 +1,26 @@
+{
+    "name": "md-pinch-zoom2",
+    "version": "1.0.0",
+    "description": "pinch zoom for vue3",
+    "main": "dist/output.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "webpack": "webpack"
+    },
+    "keywords": [
+        "vue3",
+        "pinch",
+        "zoom",
+        "image",
+        "pinchzoom"
+    ],
+    "author": "mohammad daneshamooz",
+    "license": "ISC",
+    "devDependencies": {
+        "vue": "^3.2.33",
+        "vue-loader": "^17.0.0",
+        "vue-template-compiler": "^2.6.14",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2"
+    }
+}
